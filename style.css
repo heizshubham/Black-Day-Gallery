@@ -157,3 +157,8 @@ main {
     &:nth-child(6) { left: calc(50% + 420px); opacity: 0; }
   }
 }
+
+/* Example of a media query for small screens */
+@media only screen and (max-width: 600px) {
+  /* Your CSS rules for small screens go here */
+}

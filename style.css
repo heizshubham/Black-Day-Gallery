@@ -62,6 +62,7 @@ main {
   text-shadow: 0 3px 8px rgba(28, 27, 27, 0.995);
   opacity: 0;
   display: none;
+  
 
   & .title {
     font-family: 'arial-black';
@@ -161,4 +162,25 @@ main {
 /* Example of a media query for small screens */
 @media only screen and (max-width: 600px) {
   /* Your CSS rules for small screens go here */
+
+  /* Example: Adjusting font size */
+  body {
+    font-size: 14px;
+  }
+
+  /* Example: Adjusting margins or padding */
+  .container {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  /* Example: Hiding or showing elements */
+  .hidden-on-small-screen {
+    display: none;
+  }
+
+  /* Example: Changing layout or positioning */
+  .responsive-layout {
+    flex-direction: column;
+  }
 }
